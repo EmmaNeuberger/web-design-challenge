@@ -1,0 +1,122 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+
+
+
+
+/* Body */
+body{
+  background-color: #EDEDED; 
+}
+/* Navbar */
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: #5191fd;
+  font-size: 15px;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.navigation .navbar-brand{
+  color: white; 
+  margin-left: 30px; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: #0BADA6;
+  font-family: 'Georgia';
+  text-align: center;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color:#E7E7E7!important; 
+}
+.dropdown-item{
+  color: #6D8092 !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:#E7E7E7 !important; 
+}
+a{
+  color: #6D8092;
+  font-size: 15px; 
+}
+.nav-link:hover{
+  background-color:#E7E7E7 !important;
+ }
+
+.navbar-brand:hover{
+color: rgb(175, 175, 175) !important;
+}
+
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover{
+  border-color:#0BADA6;
+  border-style: solid; 
+  
+}
+.vizualization{
+  width:50% !important;
+  height:50% !important;
+}
+
+/* Title Class  */
+.title{
+  color: #1f77b4;  
+  font-family: 'Georgia';
+  font-weight: bolder; 
+  padding-top: 25px; 
+}
+/* Paragraph Element */
+p{
+color: #6D8092;
+font-family: 'Times New Roman';
+font-size: 12px; 
+}
+/* Box Class */
+.box {
+  margin-top: 60px; 
+  margin-bottom: 62px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+
+}
+/* Table */
+.table{
+  font-size: 15px; 
+  border-top-color: white !important; 
+}
+
+
